@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 4000;
 
 // 🧠 GET API endpoint
 app.get("/api/getChartJson", (req, res) => {
-  const SECONDS = 10800; // You can increase (like 10800 for 3 hours)
+  const SECONDS = 7200; // You can increase (like 10800 for 3 hours)
   const LABEL_COUNT = 52;
   const START_LAT = 28.6139;
   const START_LNG = 77.2090;
